@@ -1,0 +1,234 @@
+@import "part"
+
+body
+	font-family: 'Roboto Slab', serif;
+	color: #191b29
+	font-size: 16px
+	margin: 0
+	padding: 0
+	color: #31353e
+
+h3
+	font-weight: 700
+	font-size: 1.875em
+
+.btn
+	margin: 0 auto
+	display: flex
+	a
+		background-color: #fff
+		padding: 18px 60px
+		border-radius: 50px
+		color: #612316
+		text-decoration: none
+		font-size: 1.125em
+		&:hover
+			background-color: #dd4b2b
+			color: #fff
+		&:active
+			opacity: .8
+
+#menu-checkbox 
+	display: none
+
+section.main
+	background-color: #edeff1
+	header
+		display: flex;
+		justify-content: space-between;
+		align-items: center
+		.header-left
+			min-height: 10vh
+			flex-direction: column
+			justify-content: center
+			.logo
+				h2
+					font-weight: bold
+					font-size: 2.25em
+				p
+					font-weight: normal
+					color: #dd4b2b
+		nav
+			ul
+				margin-right: -3px
+				li
+					list-style: none
+					a
+						text-decoration: none
+						font-size: 1.125em
+						padding: 15px 23px
+						color: #31353e
+						&:hover
+							background-color: #dd4b2b
+							color: #fff
+							border-radius: 50px
+	.mainscreen
+		min-height: 90vh
+		background-image: url(../img/background.jpg)
+		align-content: center
+		background-position: center center;
+		background-size: cover
+		.container
+			.mainscreen-title
+				h1
+					margin-top: 23%
+					color: #fff
+					font-weight: 300
+					font-size: 4.5em
+					text-align: center
+					letter-spacing: 0px
+				p
+					grid-column-start: 1
+					grid-column-end: 4
+					color: #fff
+					font-weight: 700
+					font-size: 1.875em
+					text-align: center
+			.mainscreen-categories
+				padding: 0 2.5%
+				grid-template-columns: repeat(3, 1fr)
+				align-content: center
+				.category
+					padding: 0 15px
+					margin: 9% auto 6%
+					color: #fff
+					text-align: center
+					h3
+						margin-top: 1.5%
+					p
+						font-size: .938em
+						font-weight: 300
+			.btn
+.newsAndLetters
+	background-color: #edeff1
+	.news
+		min-height: 67vh
+		padding: 0 2.5%
+	h3
+		text-align: center
+		padding: 2.5% 0 
+	.container
+		.news-content
+			grid-template-columns: 1fr 1fr 1fr
+			.news-item
+				img
+					max-width: 100%
+				h3
+					margin: 5% 0 0 0
+					text-align: center
+				p
+					text-align: center
+					font-weight: 300
+					font-size: 0.93em
+					padding: 0 30px 5px 30px
+				.btn
+					margin: 5% auto 0
+	.letters
+		min-height: 33vh
+		align-content: center
+		background-position: center center;
+		background-size: cover
+		color: #fff
+		text-align: center
+		h2
+			padding: 65px 0 10px 0
+		p
+			font-weight: 300
+			font-size: .938em
+		.letters-form
+			padding-top: 20px
+			display: flex
+			justify-content: center
+			.letters-form_mail
+				border-radius: 50px 0px 0px 50px
+				opacity: .5
+				background-color: #edeff1
+				border: #c9cbcb 1px solid
+				padding: 0 70px 0 34px
+				&::placeholder
+					font-size: 18px
+					font-family: 'Roboto Slab', serif;
+				&:hover
+					opacity: .8
+			button
+				background-color: #fff
+				border-radius: 50px
+				border: #edeff1 1px solid
+				padding: 18px 76px
+				margin: 0 0px 0 -35px
+				position: relative
+				z-index: 1
+				font-family: 'Roboto Slab', serif;
+				font-size: 18px
+				color: #612316
+				cursor: pointer
+				&:hover
+					background-color: #dd4b2b
+					border: #dd4b2b 1px solid
+					color: #fff
+				&:active
+					opacity: .8
+.product-details
+	background-color: #fff
+	min-height: 100vh
+	.container
+		.products-details_porudcts
+			grid-template-columns: 1fr 1fr
+			padding: 11% 2.5% 0 2.5%
+			.product
+				h3
+					padding-bottom: 16px
+				p
+					line-height: 30px
+					padding-bottom: 44px
+					font-weight: 300
+				.btn
+					a
+						background-color: #4b4e73
+						color: #fff
+						&:hover
+							background-color: #dd4b2b
+			.product-2
+				padding-top: 70%
+.footer
+	.footer-top
+		min-height: 404px
+		background-color: #d75d0e
+		.container
+			.columns
+				grid-template-columns: 1fr 1fr 1fr
+				padding: 0 2.5%
+				text-align: center
+				padding-top: 90px
+				color: #fff
+				.column
+					.link
+						text-decoration: none
+						display: block
+						line-height: 40px
+						color: #fff
+						&:hover
+							color: #000
+						&:active
+							opacity: .8
+	.footer-bottom
+		min-height: 374px
+		background-image: url(../img/burger-bg.jpg)
+		background-position: center center;
+		background-size: cover
+		p
+			color: #fff
+			text-align: center
+			font-weight: 700
+			font-size: 1.125em
+			opacity: .9
+			padding-top: 85px
+			span
+				font-weight: 300
+				opacity: .6
+
+@import "media"
+
+
+
+	

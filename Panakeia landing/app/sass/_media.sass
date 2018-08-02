@@ -1,0 +1,202 @@
+
+@media only screen and (max-width : 1500px)
+	.container
+		width: 75%
+	section.main .mainscreen .container .mainscreen-title h1
+		margin-top: 18%
+	section.main .mainscreen
+		background-position: bottom
+
+
+@media only screen and (max-width : 1360px)
+	.container
+		width: 85%
+	section.main .mainscreen .container .mainscreen-title h1
+		margin-top: 22%
+	
+	section.main header nav ul li a
+		font-size: 16px
+
+
+@media only screen and (max-width : 1260px)
+	.container
+		width: 95%
+
+
+@media only screen and (max-width : 1140px)
+	section.main .mainscreen .container .mainscreen-title h1
+		margin-top: 2%
+	section.main .mainscreen .container .mainscreen-categories
+		margin-top: 200px
+
+
+@media only screen and (max-width : 992px)
+	section.main .mainscreen .container .mainscreen-title h1
+		font-size: 3em
+	.newsAndLetters h3
+		padding: 5% 0 10%
+	section.main header nav ul li a
+		font-size: 16px
+		padding: 15px 18px
+	.newsAndLetters .container .news-content .news-item .btn
+		padding-bottom: 20px
+	.mainscreen-btn
+		padding: 20px 0 
+	.news-btn
+		padding-top: 10px
+	.footer .footer-bottom
+		min-height: 20vh
+
+
+@media only screen and (max-width : 840px)
+	section.main header nav ul li a
+		padding: 15px 12px
+	section.main .mainscreen .container .mainscreen-categories
+		margin-top: 180px
+		padding: 0
+	section.main .mainscreen .container .mainscreen-categories .category
+		padding: 0
+
+
+@media only screen and (max-width : 768px)
+	section.main .mainscreen
+		background-position: 25% 25%;
+	body
+		font-size: 28px
+	.menu
+		display: none
+	.toggle-button 
+		text-align: center
+		display: block
+		cursor: pointer
+		color: #000;
+		margin-top: 25px
+	&:after 
+		content: attr(data-open)
+		display: absolute
+		font-size: 70px
+		font-weight: 700
+		float: left
+	#menu-checkbox:checked + nav[role="navigation"] .menu
+		display: block
+		width: 265px
+		background-color: #fff
+		margin-bottom: -170px
+		height: 334px
+		position: relative
+		z-index: 2
+		top: 164px
+		right: 274px
+		li
+			padding-top: 20px
+			&:hover
+				background-color: gray
+			a
+				text-decoration: none
+				font-size: 1.125em
+				padding: 0 0
+				border-radius: 0
+				background-color: inherit
+	#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after 
+		content: attr(data-close);
+	.main-menu 
+		position: relative;
+		top: 35px;
+		right: 115px;
+	nav ul 
+		margin-bottom: 10px;
+	section.main .mainscreen .container .mainscreen-categories
+		grid-template-columns: 1fr
+		margin-top: 15%
+	section.main .mainscreen .container .mainscreen-title h1
+		margin-top: 10%
+	.newsAndLetters .letters .letters-form button
+		padding: 10px 50px
+	.newsAndLetters .news
+		padding: 0
+	.newsAndLetters .letters .letters-form
+		padding-bottom: 20px
+	.mainscreen
+		min-height: 100%
+	.mainscreen-btn
+		margin-bottom: 10%
+	.newsAndLetters .container .news-content .news-item img
+		margin: 0 auto
+	.newsAndLetters .container .news-content .news-item h3
+		padding: 2% 0
+		margin: 0
+	.newsAndLetters .container .news-content .news-item .btn
+		margin: 0 auto 10%
+	.product-details .container .products-details_porudcts,
+	.newsAndLetters .container .news-content
+		grid-template-columns: 1fr
+	.product-details .container .products-details_porudcts .product-2
+		padding-top: 0%
+	.product-details .container .products-details_porudcts .btn a
+		margin-bottom: 5%
+	.product-details .container .products-details_porudcts p
+		padding-bottom: 3%
+	.footer .footer-top .container .columns
+		grid-template-columns: 1fr
+		padding: 5% 0
+	.footer .footer-bottom p
+		padding-top: 5%
+		min-height: 20vh
+	.footer .footer-top .container .columns .column .link
+		margin-bottom: 10%
+
+
+@media only screen and (max-width : 640px)
+	.newsAndLetters .news
+		padding: 0
+	.container
+		width: 100%
+	.product-details
+		min-height: 100%
+	// .footer .footer-top .container .columns
+	// 	display: flex
+	// 	margin: 0 auto
+	// .footer .footer-top .container .columns .column .link
+	// 	margin-bottom: 5%
+	// 	padding: 0 12%
+
+
+@media only screen and (max-width : 480px)
+	.newsAndLetters .news
+		padding: 0
+	.newsAndLetters .letters .letters-form button
+		padding: 10px 20px
+	.newsAndLetters .letters .letters-form
+		padding-bottom: 20px
+	.newsAndLetters .letters .letters-form .letters-form_mail
+		padding: 0 20px 0 34px
+	/**/
+
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
